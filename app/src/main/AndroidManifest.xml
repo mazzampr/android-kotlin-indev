@@ -16,7 +16,7 @@
         android:theme="@style/Theme.CobaPertama"
         tools:targetApi="31">
         <activity
-            android:name=".todolistRecycler.TodoListActivity"
+            android:name=".latihanRetrofit.MainTodoActivity"
             android:exported="true">
 
             <intent-filter>
@@ -26,11 +26,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".todolistRecycler.TodoListActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".movieRecyclerExercise.TesRecyclerView"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".TestListView"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".CustomStyler"
             android:exported="false" />
@@ -57,9 +62,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>

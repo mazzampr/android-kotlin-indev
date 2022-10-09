@@ -25,6 +25,7 @@ class HomePage : AppCompatActivity() {
             val goToToast = Intent(this@HomePage, DetailPage::class.java)
             startActivity(goToToast)
         }
+
     }
 
     // LOGCAT + Lifecycle
